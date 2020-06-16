@@ -8,4 +8,4 @@ hours = u_inp // 3600
 mins = (u_inp % 3600) // 60
 secs = (u_inp % 3600) % 60
 
-print(f'В формате чч:мм:сс - {hours}:{mins}:{secs}')
+print(f'В формате чч:мм:сс - {hours:02}:{mins:02}:{secs:02}')
